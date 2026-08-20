@@ -1,0 +1,6 @@
+{
+  "name": "DoggyMon 犬隻訓練所",
+  "description": "香港專業犬隻行為改善與正向訓練所，由教育心理學碩士、前教師及 CPDT-KA 認證訓練師任 Sir 主理，專注以科學解決咬人、護食、狂吠等行為危機。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

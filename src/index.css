@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #031632;
+    --primary-container: #1a2b48;
+    --secondary: #8e4e14;
+    --secondary-container: #ffab69;
+    --tertiary-fixed: #ffdcbd;
+    --on-tertiary-fixed: #2c1600;
+    --background: #f9f9ff;
+    --surface: #f9f9ff;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #f0f3ff;
+    --on-surface: #111c2c;
+    --on-surface-variant: #44474d;
+    --outline-variant: #c5c6ce;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    font-family: 'Inter', 'Noto Sans TC', sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-headline {
+    font-family: 'Montserrat', 'Noto Sans TC', sans-serif;
+  }
+}
+
+.ambient-shadow {
+  box-shadow: 0 10px 40px -10px rgba(26, 43, 72, 0.08);
+}
+
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 45px -10px rgba(26, 43, 72, 0.12);
+}
